@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiao/Desktop/programmiersprachen-aufgabenblatt-3/source/aufgabe_2_und_3.cpp
+list
+-
+iostream
+-
+iterator
+-
+map
+-
+vector
+-
+set
+-
+algorithm
+-
+
