@@ -110,7 +110,7 @@ class List{
 		}
 		void pop_front() {
 			if( size()==1 ){
-				first_=last_=nullptr;   
+				first_=last_=nullptr;     
 				--size_;
 			}
 			else{
