@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++14 -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/aufgabe_2_und_3.dir/aufgabe_2_und_3.cpp.o  -o aufgabe_2_und_3 

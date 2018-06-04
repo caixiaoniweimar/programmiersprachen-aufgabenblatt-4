@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++14 -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/aufgabe_11.dir/aufgabe_11.cpp.o  -o aufgabe_11 

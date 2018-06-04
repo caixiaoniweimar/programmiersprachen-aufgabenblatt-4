@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++14 -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/aufgabe_6.dir/aufgabe_6.cpp.o CMakeFiles/aufgabe_6.dir/circle.cpp.o CMakeFiles/aufgabe_6.dir/vec2.cpp.o  -o aufgabe_6 
