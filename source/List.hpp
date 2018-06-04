@@ -17,8 +17,28 @@ struct ListNode{
 template <typename T>
 class ListIterator{
 	public:
+		using Self=ListIterator<T>;
+		using value_type=T;
+		using pointer=T*;
+		using reference=T&;
+		using difference_type=ptrdiff_t;
+		using iterator_category=bidirectional_iterator_tag;
+		ListIterator() {} // not implemented yet
+		ListIterator(ListNode<T>* n){}
+		reference operator*() const{}
+		pointer operator->() const{}
+		Self& operator++() {}
+		Self operator++(int) {}
+		bool operator==(Self const& x) const {}
+		bool operator!=(Self const& x) const {} //not implemented yet
+		Self next() const{
+			if(node)
+				return ListIterator(node->next);
+			else
+				return ListIterator(nullptr);
+		}
 	private:
-	  ListNode<T>* node;	
+	  	ListNode<T>* node;  //The node the iterator is poingting to	
 };
 
 template <typename T>
@@ -90,7 +110,7 @@ class List{
 		}
 		void pop_front() {
 			if( size()==1 ){
-				first_=last_=nullptr;
+				first_=last_=nullptr;   
 				--size_;
 			}
 			else{
