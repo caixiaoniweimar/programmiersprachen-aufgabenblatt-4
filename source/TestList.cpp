@@ -27,7 +27,7 @@ TEST_CASE("test_push_front","[test_push_front]"){
 	List<int> list2;
 	list2.push_front(1);
 	list2.push_back(2);
-	REQUIRE( 1==list2.front() );    
+	REQUIRE( 1==list2.front() );         
 }
 TEST_CASE("test_push_back","[test_push_back]"){
 	List<int> list2;
