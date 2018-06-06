@@ -108,7 +108,7 @@ TEST_CASE("copy constructor","[constructor]"){
 	list.push_front(3);
 	list.push_front(4);
 	List<int> list2{list};
-	REQUIRE( list==list2);           
+	REQUIRE( list==list2);             
 }
 
 int main(int argc, char* argv[]){
