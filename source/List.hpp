@@ -17,7 +17,7 @@ struct ListNode{
 	ListNode* next= nullptr;
 };
 
-template <typename T>           
+template <typename T>                  
 class ListIterator{
 	public:
 // Aufgabe 4.5					！！！！！！
