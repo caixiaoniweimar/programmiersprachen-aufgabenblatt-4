@@ -18,7 +18,7 @@ TEST_CASE("test_size","[test_size]"){
 	
 }
 TEST_CASE("test_ob_empty","[test_empty]"){
-	List<int> list2;     
+	List<int> list2;         
 	REQUIRE( list2.empty()==true );
 	list2.push_back(1);
 	REQUIRE( list2.empty()==false );
